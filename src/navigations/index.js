@@ -16,8 +16,9 @@ const RootNavigator = () => {
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="Home" component={Dashboard} />
         <Stack.Screen name="Game" component={GamePlay} />
+
+        <Stack.Screen name="Home" component={Dashboard} />
       </Stack.Navigator>
     </NavigationContainer>
   );
